@@ -36,12 +36,8 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 #Shannon
 Vamos a definir la funcion para calcular Shannon
 ```{r shannon, eval=TRUE}
+source("R/shannon.R")
 p <-c(10, 200, 1000, 50)
-shannon <-function (species)
-{
-  prop<-species/sum(species) #calcula proporciones
-  -sum(prop*log(prop))#calcula shannon
-}
 shannon(p )#devuelve shannon
 ```
 
