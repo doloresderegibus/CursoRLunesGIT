@@ -1,2 +1,3 @@
-#repositorio Curso en programaci'on R y ciencia abierta
-*aprender a usar GITHUB
+# Repositorio Curso en programación R y ciencia abierta
+
+* Aprender a usar GITHUB
